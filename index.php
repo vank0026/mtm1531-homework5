@@ -1,6 +1,6 @@
 <?php
 
-require_once '../db.php';
+require_once 'includes/db.php';
 //	exect() allows us to perform SQL and not expect a result
 //	the query thing allows us to perform SQL the database, and get something back
 $results = $db->query('

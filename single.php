@@ -11,7 +11,7 @@ if (empty($id)) {
 //			By using this format, MySQL is plrotected from a type of common hacking
 //	**********************
 
-require_once '../db.php';
+require_once 'includes/db.php';
 
 		// 	prepare() allows execution of sql commands with user input
 $sql = $db->prepare('
